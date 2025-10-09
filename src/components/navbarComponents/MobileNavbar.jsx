@@ -28,12 +28,12 @@ const MobileNavbar = () => {
             <img
               src={homeIcon}
               alt=""
-              className={`w-6 md:w-8 ${scrolled ? "hidden" : "block"}`}
+              className={`w-6 md:w-8 transition-all duration-500 ease-in-out ${scrolled ? "hidden" : "block"}`}
             />
-            <p className={`md:text-sm ${scrolled ? "text-sm" : "text-xs"}`}>Homes</p>
+            <p className={`md:text-sm  ${scrolled ? "text-sm" : "text-xs"}`}>Homes</p>
           </li>
           <li className="relative flex items-center gap-1 cursor-pointer text-gray-600 text-xs md:text-sm">
-            <div className={`${scrolled ? "hidden" : "block"}`}>
+            <div className={`transition-all duration-500 ease-in-out ${scrolled ? "hidden" : "block"}`}>
               <img src={airBallon} alt="" className="w-6 md:w-8" />
               <span className="absolute -top-4 left-9 bg-[#304262] p-1 text-white rounded-tl-xl rounded-r-xl text-[8px] font-semibold px-2 py-0.5">
                 New
@@ -42,7 +42,7 @@ const MobileNavbar = () => {
             <p className={`md:text-sm ${scrolled ? "text-sm" : "text-xs"}`}>Experiences</p>
           </li>
           <li className="relative flex items-center gap-1 cursor-pointer text-gray-600 text-xs md:text-sm">
-            <div className={`${scrolled ? "hidden" : "block"}`}>
+            <div className={`transition-all duration-500 ease-in-out ${scrolled ? "hidden" : "block"}`}>
               <img src={deskBell} alt="" className={`w-6 md:w-8`} />
               <span className="absolute -top-4 left-9 bg-[#304262] p-1 text-white rounded-tl-xl rounded-r-xl text-[8px] font-semibold px-2 py-0.5">
                 New

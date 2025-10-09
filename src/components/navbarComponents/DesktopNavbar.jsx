@@ -11,7 +11,7 @@ const DesktopNavbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 100) setScrolled(true);
+      if (window.scrollY > 50) setScrolled(true);
       else setScrolled(false);
     };
     window.addEventListener("scroll", handleScroll);
