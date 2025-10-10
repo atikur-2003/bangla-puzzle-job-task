@@ -20,7 +20,7 @@ const DesktopNavbar = () => {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 bg-gray-100 border-b border-gray-300 transition-all duration-300 ${
+      className={`fixed top-0 w-full z-50 px-3 bg-gray-100 border-b border-gray-300 transition-all duration-300 ${
         scrolled ? "shadow-md py-6" : "py-6"
       }`}
     >
@@ -41,7 +41,7 @@ const DesktopNavbar = () => {
               <img src={homeIcon} alt="" className="w-8" />
               Homes
             </li>
-            <li className="relative flex items-center gap-2 cursor-pointer text-gray-600">
+            <li className="relative flex items-center gap-2 cursor-pointer text-gray-600 hover:text-black">
               <div className="hover:scale-125 duration-300 transition">
                 <img src={airBallon} alt="" className="w-8 " />
                 <span className="absolute -top-4 left-9 bg-[#304262] p-1 text-white rounded-tl-xl rounded-r-xl text-[10px] font-semibold px-2 py-0.5">
@@ -50,7 +50,7 @@ const DesktopNavbar = () => {
               </div>
               Experiences
             </li>
-            <li className="relative flex items-center gap-2 cursor-pointer text-gray-600">
+            <li className="relative flex items-center gap-2 cursor-pointer text-gray-600 hover:text-black">
               <div className="hover:scale-125 duration-300 transition">
                 <img src={deskBell} alt="" className="w-8 " />
                 <span className="absolute -top-4 left-9 bg-[#304262] p-1 text-white rounded-tl-xl rounded-r-xl text-[10px] font-semibold px-2 py-0.5">

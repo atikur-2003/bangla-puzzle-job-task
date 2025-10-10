@@ -78,7 +78,7 @@ const BangkokHotels = () => {
   const nextRef = useRef(null);
 
   return (
-    <section className=" px-4 md:px-10">
+    <section className="px-4 md:px-10">
       {/* Title + Navigation Buttons */}
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center ">
@@ -132,9 +132,9 @@ const BangkokHotels = () => {
                 <img
                 src={hotel.image}
                 alt={hotel.name}
-                className="w-full h-48 object-cover rounded-3xl"
+                className="w-full h-48 object-cover rounded-3xl cursor-pointer"
               />
-              <span className="absolute top-3 left-2 font-semibold text-xs bg-gray-200 px-2 py-1 rounded-full">
+              <span className="absolute top-3 left-2 font-semibold text-xs bg-gray-200 px-2 py-1 w-[75px] md:w-[102px] rounded-2xl md:rounded-full">
                 Guest Favorite
               </span>
               <span className="absolute top-3 right-2 text-white">
@@ -142,8 +142,8 @@ const BangkokHotels = () => {
               </span>
               </div>
               <div className="px-2 mt-1">
-                <h3 className="text-base font-medium">{hotel.name}</h3>
-                <div className="flex items-center gap-2 text-sm text-gray-600">
+                <h3 className="text-base font-medium cursor-pointer">{hotel.name}</h3>
+                <div className="flex items-center gap-1 text-xs md:text-sm text-gray-600 cursor-auto">
                   <p className="font-medium mt-1">{hotel.price}</p>
                   <p className="flex items-center gap-0.5 mt-1">
                     <span>

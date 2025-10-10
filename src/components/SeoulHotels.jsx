@@ -9,71 +9,71 @@ import { CiHeart } from "react-icons/ci";
 const mockHotelsData = [
   {
     id: 1,
-    name: "Room in Toronto",
+    name: "Apartment in Gwanak-gu",
     price: "$72 for 2 nights",
     rating: 4.3,
     image:
-      "https://images.unsplash.com/photo-1549638441-b787d2e11f14?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0",
   },
   {
     id: 2,
-    name: "Room in Mississauga",
+    name: "Guesthouse in Jung-gu",
     price: "$44 for 2 nights",
     rating: 3.8,
     image:
-      "https://plus.unsplash.com/premium_photo-1678297270523-8775c817d0b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=60",
   },
   {
     id: 3,
-    name: "Place to stay in Toronto",
+    name: "Room in Yeongdeungpo-gu",
     price: "$70 for 2 nights",
     rating: 4.6,
     image:
-      "https://images.unsplash.com/photo-1594560913095-8cf34bab82ad?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=60",
   },
   {
     id: 4,
-    name: "Room in Toronto",
+    name: "Room in Eunpyeong-gu",
     price: "$70 for 2 nights",
     rating: 4.1,
     image:
-      "https://images.unsplash.com/photo-1675409145919-277c0fc2aa7d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60",
   },
   {
     id: 5,
-    name: "Room in Toronto",
+    name: "Hostel in Yeongdeungpo-gu",
     price: "$70 for 2 nights",
     rating: 3.9,
     image:
-      "https://images.unsplash.com/photo-1608198399988-341f712c3711?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=60",
   },
   {
     id: 6,
-    name: "Room in Mississauga",
+    name: "Hotel in Geumcheon-gu",
     price: "$70 for 2 nights",
     rating: 4.8,
     image:
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=600&auto=format&fit=crop&q=60",
   },
   {
     id: 7,
-    name: "Room in Toronto",
+    name: "Apartment in Gangnam-gu",
     price: "$70 for 2 nights",
     rating: 4.0,
     image:
-      "https://images.unsplash.com/photo-1621293954908-907159247fc8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1661964402307-02267d1423f5?w=600&auto=format&fit=crop&q=60",
   },
   {
     id: 8,
-    name: "Room in Mississauga",
+    name: "Room in Yeongdeungpo-gu",
     price: "$70 for 2 nights",
     rating: 3.7,
     image:
-      "https://plus.unsplash.com/premium_photo-1661956080119-71234af803b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&auto=format&fit=crop&q=60",
   },
 ];
 
-const TorontoHotels = () => {
+const SeoulHotels = () => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
 
@@ -83,7 +83,7 @@ const TorontoHotels = () => {
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center ">
           <h2 className=" text-base md:text-xl font-semibold cursor-pointer">
-            Available next month in Toronto
+            Homes in Seoul
           </h2>
           <span className="mt-1 hidden md:block">
             <FaChevronRight />
@@ -161,4 +161,4 @@ const TorontoHotels = () => {
   );
 };
 
-export default TorontoHotels;
+export default SeoulHotels;

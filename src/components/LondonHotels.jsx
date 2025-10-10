@@ -9,7 +9,7 @@ import { CiHeart } from "react-icons/ci";
 const mockHotelsData = [
   {
     id: 1,
-    name: "Room in Khet Phra Nakhon",
+    name: "Room in Mill Hill",
     price: "$72 for 2 nights",
     rating: 4.3,
     image:
@@ -17,7 +17,7 @@ const mockHotelsData = [
   },
   {
     id: 2,
-    name: "Apartment in Bangkok",
+    name: "Room in London",
     price: "$44 for 2 nights",
     rating: 3.8,
     image:
@@ -25,7 +25,7 @@ const mockHotelsData = [
   },
   {
     id: 3,
-    name: "Room in Khet Bang Rak",
+    name: "Room in Tottenham",
     price: "$70 for 2 nights",
     rating: 4.6,
     image:
@@ -33,7 +33,7 @@ const mockHotelsData = [
   },
   {
     id: 4,
-    name: "Apartment in Bangkok",
+    name: "Room in Camberwell",
     price: "$70 for 2 nights",
     rating: 4.1,
     image:
@@ -41,7 +41,7 @@ const mockHotelsData = [
   },
   {
     id: 5,
-    name: "Room in Khet Ratchathewi",
+    name: "Room in Hackney",
     price: "$70 for 2 nights",
     rating: 3.9,
     image:
@@ -49,7 +49,7 @@ const mockHotelsData = [
   },
   {
     id: 6,
-    name: "Room in Khet Phra Nakhon",
+    name: "Room in Camberwell",
     price: "$70 for 2 nights",
     rating: 4.8,
     image:
@@ -57,7 +57,7 @@ const mockHotelsData = [
   },
   {
     id: 7,
-    name: "Room in Khet Bang Rak",
+    name: "Room in Eltham",
     price: "$70 for 2 nights",
     rating: 4.0,
     image:
@@ -65,7 +65,7 @@ const mockHotelsData = [
   },
   {
     id: 8,
-    name: "Apartment in Sathon",
+    name: "Room in Paddington",
     price: "$70 for 2 nights",
     rating: 3.7,
     image:
@@ -132,9 +132,9 @@ const LondonHotels = () => {
                 <img
                   src={hotel.image}
                   alt={hotel.name}
-                  className="w-full h-48 object-cover rounded-3xl"
+                  className="w-full h-48 object-cover rounded-3xl cursor-pointer"
                 />
-                <span className="absolute top-3 left-2 font-semibold text-xs bg-gray-200 px-2 py-1 rounded-full">
+                <span className="absolute top-3 left-2 font-semibold text-xs bg-gray-200 px-2 py-1 w-[75px] md:w-[102px] rounded-2xl md:rounded-full">
                   Guest Favorite
                 </span>
                 <span className="absolute top-3 right-2 text-white">
@@ -142,8 +142,8 @@ const LondonHotels = () => {
                 </span>
               </div>
               <div className="px-2 mt-1">
-                <h3 className="text-base font-medium">{hotel.name}</h3>
-                <div className="flex items-center gap-2 text-sm text-gray-600">
+                <h3 className="text-base font-medium cursor-pointer">{hotel.name}</h3>
+                <div className="flex items-center gap-1 text-xs md:text-sm text-gray-600 cursor-auto">
                   <p className="font-medium mt-1">{hotel.price}</p>
                   <p className="flex items-center gap-0.5 mt-1">
                     <span>

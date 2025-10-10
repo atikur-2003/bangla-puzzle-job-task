@@ -9,71 +9,71 @@ import { CiHeart } from "react-icons/ci";
 const mockHotelsData = [
   {
     id: 1,
-    name: "Room in Toronto",
+    name: "Apartment in Chuo",
     price: "$72 for 2 nights",
     rating: 4.3,
     image:
-      "https://images.unsplash.com/photo-1549638441-b787d2e11f14?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 2,
-    name: "Room in Mississauga",
+    name: "Hotel room in Naniwa Ward",
     price: "$44 for 2 nights",
     rating: 3.8,
     image:
-      "https://plus.unsplash.com/premium_photo-1678297270523-8775c817d0b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 3,
-    name: "Place to stay in Toronto",
+    name: "Apartment in Osaka",
     price: "$70 for 2 nights",
     rating: 4.6,
     image:
-      "https://images.unsplash.com/photo-1594560913095-8cf34bab82ad?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 4,
-    name: "Room in Toronto",
+    name: "Room in Osaka",
     price: "$70 for 2 nights",
     rating: 4.1,
     image:
-      "https://images.unsplash.com/photo-1675409145919-277c0fc2aa7d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1578898886225-c7c894047899?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 5,
-    name: "Room in Toronto",
+    name: "Home in Osaka",
     price: "$70 for 2 nights",
     rating: 3.9,
     image:
-      "https://images.unsplash.com/photo-1608198399988-341f712c3711?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1670360414903-19e5832f8bc4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 6,
-    name: "Room in Mississauga",
+    name: "Places in Nishinari Ward",
     price: "$70 for 2 nights",
     rating: 4.8,
     image:
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1515362778563-6a8d0e44bc0b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 7,
-    name: "Room in Toronto",
+    name: "Hostel in Joto Ward",
     price: "$70 for 2 nights",
     rating: 4.0,
     image:
-      "https://images.unsplash.com/photo-1621293954908-907159247fc8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1568495248636-6432b97bd949?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 8,
-    name: "Room in Mississauga",
+    name: "Apartment in Chuo",
     price: "$70 for 2 nights",
     rating: 3.7,
     image:
-      "https://plus.unsplash.com/premium_photo-1661956080119-71234af803b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1507038772120-7fff76f79d79?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D",
   },
 ];
 
-const TorontoHotels = () => {
+const OsakaHotels = () => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
 
@@ -83,7 +83,7 @@ const TorontoHotels = () => {
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center ">
           <h2 className=" text-base md:text-xl font-semibold cursor-pointer">
-            Available next month in Toronto
+            Places to stay in Osaka
           </h2>
           <span className="mt-1 hidden md:block">
             <FaChevronRight />
@@ -161,4 +161,4 @@ const TorontoHotels = () => {
   );
 };
 
-export default TorontoHotels;
+export default OsakaHotels;

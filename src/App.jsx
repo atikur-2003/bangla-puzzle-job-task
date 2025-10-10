@@ -6,6 +6,13 @@ import KualalampurHotels from './components/KualalampurHotels';
 import BangkokHotels from './components/BangkokHotels';
 import LondonHotels from './components/LondonHotels';
 import TorontoHotels from './components/TorontoHotels';
+import SeoulHotels from './components/SeoulHotels';
+import TokeyoHotels from './components/TokeyoHotels';
+import OsakaHotels from './components/OsakaHotels';
+import MelbournHotels from './components/MelbournHotels';
+import SydneyHotels from './components/SydneyHotels';
+import Footer from './components/Footer';
+import MobileBottomNav from './components/MobileBottomNave';
 
 
 const App = () => {
@@ -16,8 +23,13 @@ const App = () => {
       <BangkokHotels />
       <LondonHotels />
       <TorontoHotels />
-      {/* <div className="h-[200vh] bg-gray-50"> 
-      </div> */}
+      <SeoulHotels />
+      <TokeyoHotels />
+      <OsakaHotels />
+      <MelbournHotels />
+      <SydneyHotels />
+      <Footer />
+      <MobileBottomNav />
     </div>
   );
 };

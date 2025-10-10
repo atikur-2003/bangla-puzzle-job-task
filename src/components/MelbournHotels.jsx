@@ -9,7 +9,7 @@ import { CiHeart } from "react-icons/ci";
 const mockHotelsData = [
   {
     id: 1,
-    name: "Room in Toronto",
+    name: "Room in Braybrook",
     price: "$72 for 2 nights",
     rating: 4.3,
     image:
@@ -17,7 +17,7 @@ const mockHotelsData = [
   },
   {
     id: 2,
-    name: "Room in Mississauga",
+    name: "Room in Southbank",
     price: "$44 for 2 nights",
     rating: 3.8,
     image:
@@ -25,7 +25,7 @@ const mockHotelsData = [
   },
   {
     id: 3,
-    name: "Place to stay in Toronto",
+    name: "Room in Melbourne",
     price: "$70 for 2 nights",
     rating: 4.6,
     image:
@@ -33,7 +33,7 @@ const mockHotelsData = [
   },
   {
     id: 4,
-    name: "Room in Toronto",
+    name: "Room in St Kilda",
     price: "$70 for 2 nights",
     rating: 4.1,
     image:
@@ -41,7 +41,7 @@ const mockHotelsData = [
   },
   {
     id: 5,
-    name: "Room in Toronto",
+    name: "Room in Melbourne",
     price: "$70 for 2 nights",
     rating: 3.9,
     image:
@@ -49,7 +49,7 @@ const mockHotelsData = [
   },
   {
     id: 6,
-    name: "Room in Mississauga",
+    name: "Room in Docklands",
     price: "$70 for 2 nights",
     rating: 4.8,
     image:
@@ -57,7 +57,7 @@ const mockHotelsData = [
   },
   {
     id: 7,
-    name: "Room in Toronto",
+    name: "Room in Melbourne",
     price: "$70 for 2 nights",
     rating: 4.0,
     image:
@@ -65,7 +65,7 @@ const mockHotelsData = [
   },
   {
     id: 8,
-    name: "Room in Mississauga",
+    name: "Place to stay in Melbourne",
     price: "$70 for 2 nights",
     rating: 3.7,
     image:
@@ -73,17 +73,17 @@ const mockHotelsData = [
   },
 ];
 
-const TorontoHotels = () => {
+const MelbournHotels = () => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
 
   return (
-    <section className="my-8 px-4 md:px-10">
+    <section className="px-4 md:px-10">
       {/* Title + Navigation Buttons */}
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center ">
           <h2 className=" text-base md:text-xl font-semibold cursor-pointer">
-            Available next month in Toronto
+            Check out homes in Melbourne
           </h2>
           <span className="mt-1 hidden md:block">
             <FaChevronRight />
@@ -161,4 +161,4 @@ const TorontoHotels = () => {
   );
 };
 
-export default TorontoHotels;
+export default MelbournHotels;
